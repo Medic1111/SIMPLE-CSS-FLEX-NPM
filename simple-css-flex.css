@@ -1,0 +1,118 @@
+/* BROWSER STANDARD REFACTOR */
+* {
+  margin: 0;
+  box-sizing: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+
+/* Column*/
+.flexColXStartYCenter {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  align-items: center;
+}
+
+.flexColXCenterYCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flexColXEndYCenter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: column;
+}
+.flexColXStartYStart {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.flexColXCenterYStart {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexColXEndYStart {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+
+.flexColXEndYEnd {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.flexColXStartYEnd {
+  flex-direction: column;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.flexColXCenterYEnd {
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+/* ROW*/
+.flexRowXCenterYStart {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.flexRowXCenterYCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexRowXCenterEnd {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.flexRowXStartYCenter {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.flexRowXStartYEnd {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.flexRowXStartYStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.flexRowXEndYCenter {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.flexRowXEndYEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.flexRowXEndYStart {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+}

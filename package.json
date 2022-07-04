@@ -1,0 +1,11 @@
+{
+  "name": "simple-css-flex",
+  "version": "1.0.2",
+  "description": "",
+  "main": "simple-css-flex.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aryse <medictansy@gmail.com>",
+  "license": "MIT"
+}
